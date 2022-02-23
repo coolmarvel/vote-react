@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import CryptoCoder from "./contracts/CryptoCoders.json";
 import getWeb3 from "./getWeb3";
 
-const DApp = () => {
+const Nft = () => {
   const [contract, setContract] = useState(null);
   const [account, setAccount] = useState("");
   const [coders, setCoders] = useState([]);
@@ -125,4 +125,4 @@ const DApp = () => {
   );
 };
 
-export default DApp;
+export default Nft;

@@ -43,8 +43,6 @@ class App extends React.Component {
     this.setState({ mainInstance: this.mainInstance });
   }
 
-  
-
   render() {
     return (
       <div>

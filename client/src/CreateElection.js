@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import App from "./App";
+import * as nft from "./Nft";
 
 class CreateElection extends Component {
   constructor(props) {
@@ -111,6 +112,8 @@ class CreateElection extends Component {
                     className="form-control"
                     placeholder="예) 이성현"
                     name="candidate"
+                    // value={nft.mintText()}
+                    // onChange={(e) => nft.setMintText(e.target.value)}
                   />
                 </td>
 
@@ -123,6 +126,8 @@ class CreateElection extends Component {
                     className="form-control"
                     placeholder="예) 멋쟁이"
                     name="candidate"
+                    // value={mintText}
+                    // onChange={(e) => setMintText(e.target.value)}
                   />
                 </td>
 
@@ -135,6 +140,8 @@ class CreateElection extends Component {
                     className="form-control"
                     placeholder="예) 멋쟁이"
                     name="candidate"
+                    // value={mintText}
+                    // onChange={(e) => setMintText(e.target.value)}
                   />
                 </td>
 
@@ -147,6 +154,8 @@ class CreateElection extends Component {
                     className="form-control"
                     placeholder="예) 멋쟁이"
                     name="candidate"
+                    // value={mintText}
+                    // onChange={(e) => setMintText(e.target.value)}
                   />
                 </td>
 
@@ -159,6 +168,8 @@ class CreateElection extends Component {
                     className="form-control"
                     placeholder="예) 멋쟁이"
                     name="candidate"
+                    // value={mintText}
+                    // onChange={(e) => setMintText(e.target.value)}
                   />
                 </td>
               </td>
@@ -172,6 +183,7 @@ class CreateElection extends Component {
               className="btn btn-success grid-item"
               style={{ width: 100 }}
               type="submit"
+              // onClick={mint}
             >
               확인
             </button>
